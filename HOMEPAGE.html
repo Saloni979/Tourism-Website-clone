@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <title>Take a Trip</title>
+    <style>
+        #sal{background-image:url(https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&w=1000&q=80);
+            width:100%;
+            background-size:cover;
+            background-position: center;
+            margin-bottom: 5px;
+            }
+            .div{
+            background-color: rgb(41, 31, 107);
+            height: 80px;
+        }
+        .li{
+            float: left;
+            margin-right: 40px;
+           background-color:lavender ;
+            width: 200px;
+            text-align: center;
+            margin-top: 27px;
+            list-style: none;
+            font-size: 20px;
+            font-weight: 500;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgb(56, 56, 145);
+        }
+
+        a{ text-decoration: none;}
+        .slider {
+        width: 600px;
+        height: 400px;
+        background-color: yellow;
+        margin-left: 310px;
+        margin-right:310px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 4200px;
+        background-color: pink;
+        height: 400px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -600px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1200px;
+      }
+      #slide-4:target ~ .image-container {
+        left: -1800px;
+      }
+      #slide-5:target ~ .image-container {
+        left: -2400px;
+      }
+      #slide-6:target ~ .image-container {
+        left: -3000px;
+      }
+      #slide-7:target ~ .image-container {
+        left: -3600px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 40px;
+        background-color: gray;
+      }
+    #bottom{background-color:darkcyan ;color: white;width: 100%;height:250px;font-family:'Nunito', sans-serif;}
+    #menu1{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #menu2{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #menu3{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #menu4{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #menu5{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #menu6{float: right;width: 150px;margin-top: 50px;list-style: none;}
+    #li{list-style: none;font-weight: 400;color: white;}
+    #head{font-weight: 600;font-size: 20px;list-style: none;}
+    #img{width: 202px; height: 200px;float: left;padding-right: 5px;padding-bottom: 10px;}
+    #top{width: 100%;height:500px;font-family:  'Architects Daughter', cursive;font-size: 23px; }
+    </style>
+    </head>
+    <body>
+        <div id="sal">
+          <div class="div">
+            <ul>
+                <li class="li">HOME</li>
+             <li class="li"><a href="Gallery.html" target="_blank" style="text-decoration:none;">TOUR GALLERY</a></li>
+             <li class="" style="list-style: none;">
+                 <select class="li" style="color:midnightblue ; " name="forma"onchange="location=this.value; ">
+                     <option value="" class="li" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color:midnightblue;">DESTINATIONS</option>
+                     <option value="manali.html" class="li">MANALI</option>
+                     <option value="Goa.html" class="li">GOA</option>
+                     <option value="delhi.html" class="li">DELHI</option>
+                     <option value="J&K.html" class="li">JAMMU AND KASHMIR</option>
+                     <option value="andaman.html" class="li">ANDMAN AND NICOBAR ISLANDS</option>
+                     <option value="lehladakh.html" class="li">LEH LADAKH</option>
+    
+                 </select>
+                 </li>
+             <li class="li"><a href="flight.html" style="text-decoration: none;" target="_blank">FLIGHT DETAILS</a></li>
+             <li class="li">ABOUT US</li>
+            
+            </ul>
+        </div>
+    
+            <h1 style="color:rgba(255, 255, 255,0.8);text-align: center ;margin: 160px;margin-bottom: 30px;margin-top: 100px; font-family: cursive; font-size:45px ;border-style: groove;">
+                START YOUR JOURNEY FROM HERE</h1>
+
+                <div class="slider">
+                    <span id="slide-1"></span>
+                    <span id="slide-2"></span>
+                    <span id="slide-3"></span>
+                    <span id="slide-4"></span>
+                    <span id="slide-5"></span>
+                    <span id="slide-6"></span>
+                    <span id="slide-7"></span>
+                    <div class="image-container">
+                      <img src="https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-agra.jpg" class="slide" width="600" height="400" />
+                      <img src="https://www.tourmyindia.com/blog/wp-content/uploads/2021/02/Best-Places-to-Visit-in-May-in-India.jpg" class="slide" width="600" height="400" />
+                      <img src="https://www.hlimg.com/images/stories/738X538/goa_1485594061e11.jpg?w=480&dpr=2.6" class="slide" width="600" height="400" />
+                      <img src="https://ihpl.b-cdn.net/images/tourist-attractions/ajanta-and-ellora-caves.jpg" class="slide" width="600" height="400" />
+                      <img src="https://www.visittnt.com/blog/wp-content/uploads/2017/08/tawang.jpg" class="slide" width="600" height="400" />
+                      <img src="https://www.revv.co.in/blogs/wp-content/uploads/2020/08/Haridwar-and-Rishikesh.jpg" class="slide" width="600" height="400" />
+                      <img src="http://www.thedolphinpalace.com/wp-content/uploads/2018/03/collage-images.jpg" class="slide" width="600" height="400" />
+                    </div>
+                    <div class="buttons">
+                      <a href="#slide-1"></a>
+                      <a href="#slide-2"></a>
+                      <a href="#slide-3"></a>
+                      <a href="#slide-4"></a>
+                      <a href="#slide-5"></a>
+                      <a href="#slide-6"></a>
+                      <a href="#slide-7"></a>
+                    </div>    
+                </div><br><br>
+                <h1 style="text-align: center;background-color:lavender;width: 600px;margin: 310px;margin-top: 10px;margin-bottom: 20px ;border-style:outset;"><a href="form.html" target="_blank">FORM TO BOOK YOUR TRAVEL</a></h1>
+            </div>
+
+               
+    
+                <div id="top">
+                    <p style="font-size: 20px;text-align: center;color: brown;border-style: groove;"><br>One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity.<br><br></p> <p style="font-size: 20px;text-align: center;color: brown;">Click on Image of Place or Name of Place to know more about that places</p>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;">
+                    <a href="delhi.html" target="_blank"><img id="img" src="https://www.incredibleindia.org/content/dam/incredibleindia/images/places/delhi/delhi-akshardham-13.jpg/_jcr_content/renditions/cq5dam.web.640.480.jpeg" alt=""></a>
+                    <a href="delhi.html" target="_blank">Delhi</a></div>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;">
+                    <a href="Goa.html" target="_blank"><img id="img" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/09/27/871143-goa-tourism-092719.jpg" alt=""></a><a href="Goa.html" target="_blank">Goa</a></div>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;"">
+                    <a href= "manali.html" target="_blank"><img id="img" src="https://www.tripsavvy.com/thmb/UBqvUrUo8GL4CZ2H0AS-a6EmSqM=/1885x1414/smart/filters:no_upscale()/GettyImages-930881934-5ae56fe48023b90036464e72.jpg"> </a><a href="manali.html" target="_blank">Manali</a></div>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;">
+                    <a href="J&K.html" target="_blank"><img id="img" src="https://img.etimg.com/thumb/width-640,height-480,imgsize-150351,resizemode-1,msid-71010516/news/economy/agriculture/jammu-kashmir-global-submit-to-be-held-at-ladakh/1.jpg" alt=""> </a><a href="J&K.html" target="_blank">Jammu Kashmir</a></div>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;">
+                    <a href="lehladakh.html" target="_blank"><img id="img" src="https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto,w_1316/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1581685165%2Fs4ttjwmxzht5gemp4c4x.jpg" alt=""> </a> <a href="lehladakh.html" target="_blank"> Leh Ladhak</a></div>
+                    <div style="width: 202px;text-align: center;float: left;padding-right: 3px;padding-bottom: 10px;">
+                    <a href="andaman.html" target="_blank"><img id="img" src="https://i.ytimg.com/vi/LttpKeWNx_E/maxresdefault.jpg"> </a><a href="andaman.html" target="_blank">Andaman and Nicobar Islands</a> </div>
+                </div>
+                <br><br><br>
+                <div id="bottom">
+                    <div id="menu6"></div>    
+                    <ul>
+                      <li id="menu2">
+                        <ul>
+                          <li id="head">Social</li>  
+                          <li id="li">Facebook</li>
+                          <li id="li">Instagram</li>
+                          <li id="li">Youtube</li>
+                          <li id="li">Twitter</li>
+                          <li id="li">Linkedin</li>
+                        </ul> 
+                      </li> 
+                      <li id="menu3">
+                        <ul>
+                            <li id="head">Legal</li>
+                            <li id="li">Terms of Use</li>
+                            <li id="li">Privacy Policy</li>
+                            <li id="li">Cookie Policy</li>  
+                        </ul> 
+                      </li> 
+                      <li id="menu4">
+                        <ul>
+                          <li id="head">Explore</li> 
+                          <li id="li">Write a review</li> 
+                          <li id="li">Join</li>
+                        </ul> 
+                      </li>
+                      <li id="menu5">
+                        <ul>
+                          <li id="head">Resources</li>  
+                          <li id="li">Blog</li>
+                          <li id="li">Contact Us</li>
+                          <li id="li">Help Center</li>
+                          <li id="li">Legal</li>
+                        </ul>     
+                      </li>
+                      <li id="menu1">
+                         <ul>                                          
+                             <li id="head">About</li>
+                             <li id="li">Home</li>
+                             <li id="li">Overview</li>
+                             <li id="li">FAQ</li>
+                         </ul>
+                        </li> 
+                    </ul><br><br>
+                <section>   
+                 <ul>
+                <li id="head">Useful Links</li>  
+                <li id="li"> <a href="delhi.html" target="_blank" id="li">Tourist Place-Delhi</li></a> 
+                <li id="li"><a href="Goa.html" target="_blank" id="li">Tourist Place-Goa</li></a>
+                <li id="li"><a href="manali.html" target="_blank" id="li"> Tourist Place-Manali</li></a>
+                <li id="li"> <a href="J&K.html"target="_blank"  id="li">Tourist Place-Jammu Kashmir</li></a>
+                <li id="li"><a href="lehladakh.html"  target="_blank"id="li">Tourist Place-Leh Ladhak</li></a>
+                <li id="li"><a href="andaman.html"target="_blank"  id="li"> Tourist Place-Adaman and Nicobar Islands</li></a>
+                 </ul>   
+                </section>
+                </div>
+    
+    </body>
+</html>

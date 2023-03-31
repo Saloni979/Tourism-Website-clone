@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .li{
+            background-color: ghostwhite;
+            color: slategray;
+            text-align: center;
+        }
+        table,th,td{
+            border: solid black 2px;
+            color: honeydew;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(98, 98, 163);
+        
+        }
+        table{
+            width: 100%;
+        }
+    </style>
+</head>
+<body background="http://www.france-privatetravels.com/wp-content/uploads/2017/09/Copyright-Megeve-tourisme.jpg" >
+   <marquee behavior="alternate" scrolldelay="5" scrollamount="15" direction="right" loop="10" >
+       <h1 style="color:white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" >
+        "WELCOME TO AIR INDIA"</h1></marquee>
+           <h1 style="background-color: black;color: mintcream;text-align: center;width: 600px; margin-left: 390px;">Flight Schedule For Visiting Delhi</h1>
+       <div style="width: 400px; float:left ;">
+           <ul style="list-style: none;">
+               <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+               <li class="li"><br>GOA TO DELHI  | 1983.5 km<br></li>
+               <li class="li"><br>BHOPAL TO DELHI | 788.1 km<br></li>
+               <li class="li"><br>MUMBAI TO DELHI | 1421.3 km<br></li>
+               <li class="li"><br>AMRITSAR TO DELHI | 449.9 km<br></li>
+               <li class="li"><br>BENGLURU TO DELHI | 2175.9 km<br></li>
+               <li class="li"><br></li>
+           </ul>
+       </div>
+       <br>
+       <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+       <br> &emsp;
+        <input type="radio" name="way">
+        <span> One Way</span>
+        &emsp;
+        <input type="radio" name="way">
+        <span> Round Trip</span><hr>
+       &emsp; <label for="city">FROM  :</label>
+          <!--- <input type="text" name="departure airport" id="city">-->
+           <select>
+               <option value="">DEPARTURE CITY</option>
+               <option value="">GOA</option>
+               <option value="">BHOPAL</option>
+               <option value="">MUMBAI</option>
+               <option value="">AMRITSAR</option>
+               <option value="">BENGLURU</option>
+           </select>
+           &emsp;
+           <label>TO :</label>
+           <select>
+               <option value=""> ARRIVAL CITY</option>
+               <option value=""> DELHI</option>
+           </select>
+           <br><hr>
+           &emsp;<label for="depart">DEPART :</label>
+           <input type="date" id="depart" name="depart"> &emsp;
+           <label for="return">RETURN:</label>
+           <input type="date" id="return" name=" return">
+           <br><hr>
+        &emsp;
+           <label for="adult">ADT</label>
+           <input type="number" id="adult" style="width: 40px;">
+           &emsp;<label for="child">CHD</label>
+           <input type="number" id="child" style="width: 40px;">
+           &emsp;<label for="inferior">INF</label>
+           <input type="number"id="inferior" style="width: 40px;">
+           <br><hr>
+           &emsp;<label >CLASS</label>
+           <select>
+            <option value="">CLASS</option>           
+             <option value="">ECONOMY</option>
+             <option value="">PREMIUM ECONOMY</option>
+             <option value="">BUSINESS</option>
+           </select><hr>
+          <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+           <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+       </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+
+       <table>
+           <thead>
+            <th >DEPARTURE AIRPORT</th>
+            <th colspan="2">DEPARTING FLIGHTS</th>
+            <th>PRICE</th>
+            <th colspan="2">RETURNING FLIGHTS</th>
+            <th colspan="1"> PRICE</th>
+            <td>NO. OF PERSON</td>
+            <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">GOA</td>
+                <td>Departure Time</td>
+                <td>Arrival Time</td>
+                <td rowspan="3">Rs.13,792</td>
+                <td>Departure Time</td>
+                <td>Arrival Time</td>
+                <td rowspan="3">Rs.13,792</td>
+                <td rowspan="3">ONE</td>
+                <td rowspan="4"> ROUND TRIP</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Day  -  Friday</td>
+                <td colspan="2"> Day  -  Tuesday</td>
+            </tr>
+            <tr>
+                <td colspan="2">3:25PM To 6:00PM<hr>Travel Time :2 hr 35min</td> 
+                <td colspan="2">12:10PM To 2:40PM<hr>Travel Time:2hr 30min </td>
+            </tr>
+            <tr>
+                <td colspan="2">3:20PM To 1:45PM<hr>Travel Time:46hr 25 min</td>
+                <td>Rs.19,252</td>
+                <td colspan="2">7:00PM To 2:45PM<hr> Travel Time:7 hr 45min</td>
+                <td>Rs.15,788</td>
+                <td>ONE</td>
+            </tr>
+            <tr>
+                <td rowspan="4">BHOPAL</td>
+                <td colspan="2">Day - Sunday </td>
+                <td rowspan="2">Rs.14,848</td>
+                <td colspan="2">Day -Tuesday </td>
+                <td rowspan="2">Rs.14,868</td>
+                <td rowspan="2">TWO</td>
+                <td rowspan="2">ROUND TRIP</td>
+            </tr>
+            <td colspan="2">1:35 PM To 3:00  PM<hr>Travel Time : 1 hr 25 min </td>
+            <td colspan="2">11:25AM To 1:05PM<hr>  Travel Time: 1 hr 40 min</td>
+            <tr>
+                <td colspan="2">Day - Sunday </td>
+                <td rowspan="2">Rs.2,212</td>
+                <td colspan="2" rowspan="2">__</td>
+                <td rowspan="2">__</td>
+                <td rowspan="2">ONE</td>
+                <td rowspan="2">ONE WAY</td>
+            </tr>
+            <td colspan="2">8:00 AM To 9:25  AM<hr>Travel Time : 1 hr 25 min </td>
+            </tr>
+            <tr>
+                <td rowspan="3">MUMBAI</td>
+                <td colspan="2"> Day  -  Thursday</td>
+                <td rowspan="2">Rs.4,863</td>
+                <td colspan="2"> Day  -  Monday</td>
+                <td rowspan="2">Rs.5,792</td>              
+                <td rowspan="2">ONE</td>
+                <td rowspan="2"> ROUND TRIP</td>
+            </tr>
+            <tr>
+                <td colspan="2">1:05AM To 9:55AM<hr>Travel Time :8 hr 50min</td> 
+                <td colspan="2">5:45AM To 7:55AM<hr>Travel Time:2hr 10min </td>
+            </tr>
+            <tr>
+                <td colspan="2">1:05AM To 9:55AM<hr>Travel Time:8hr 50 min</td>
+                <td > Rs.14,500</td>
+                <td colspan="2">6:15AM To 10:15PM<hr> Travel Time:7 hr </td>
+                <td>Rs.14,580</td>    
+                <td>THREE</td>
+                <td>ROUND TRIP</td>
+            </tr> 
+        
+            <tr> 
+            <td rowspan="4"> AMRITSAR</td>
+            <td colspan="2">Day-Wednesday</td>
+            <td rowspan="2">Rs.11,436</td>
+            <td colspan="2">Day -Wednesday </td>
+            <td rowspan="2">Rs.12,246</td>
+            <td rowspan="2">THREE</td>
+            <td rowspan="2">ROUND TRIP</td>
+        </tr>
+        <tr>
+        <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+        <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+        </tr>
+        <tr>
+            <td colspan="2">Day - Sunday </td>
+            <td rowspan="2">Rs.4,248</td>
+            <td colspan="2" rowspan="2">__</td>
+            <td rowspan="2">__</td>
+            <td rowspan="2">Two</td>
+            <td rowspan="2">ONE WAY</td>
+        </tr>
+        <tr>
+        <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+        </tr>
+
+        <tr> 
+            <td rowspan="4"> BENGLURU</td>
+            <td colspan="2">Day - Sunday </td>
+            <td rowspan="2">Rs.5,640</td>
+            <td colspan="2">Day -Thursday</td>
+            <td rowspan="2">Rs.5,868</td>
+            <td rowspan="2">TWO</td>
+            <td rowspan="2">ROUND TRIP</td>
+        </tr>
+        <tr>
+        <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+        <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+        </tr>
+        <tr>
+            <td colspan="2">Day - Monday </td>
+            <td rowspan="2">Rs.6,876</td>
+            <td colspan="2">Day-Friday</td>
+            <td rowspan="2">Rs.5,879</td>
+            <td rowspan="2">ONE</td>
+            <td rowspan="2">ROUND TRIP</td>
+        </tr>
+        <tr>
+        <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+        <td colspan="2">8:30PM To 11:05 PM<hr> Travel Time:2 hr 35 min</td>
+        </tr>
+
+
+        </tbody>
+        </table><BR>
+       <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+        <br><hr>
+
+        <h1 style="background-color: black;color: mintcream;text-align: center;width: 600px; margin-left: 390px;">Flight Schedule For Visiting Manali</h1>
+        <div style="width: 400px; float:left ;">
+            <ul style="list-style: none;">
+                <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+                <li class="li"><br>INDORE TO MANALI  | 1,402.5 km<br></li>
+                <li class="li"><br>BHOPAL TO MANALI | 1,326.6 km<br></li>
+                <li class="li"><br>MUMBAI TO MANALI | 1,939.1 km<br></li>
+                <li class="li"><br>KOTA TO MANALI | 1,042.1 km<br></li>
+                <li class="li"><br>RAJKOT TO MANALI | 1,620.3 km<br></li>
+                <li class="li"><br></li>
+            </ul>
+        </div>
+        <br>
+        <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+            <br> &emsp;
+             <input type="radio" name="way">
+             <span> One Way</span>
+             &emsp;
+             <input type="radio" name="way">
+             <span> Round Trip</span><hr>
+            &emsp; <label for="city">FROM  :</label>
+               <!--- <input type="text" name="departure airport" id="city">-->
+                <select>
+                    <option value="">DEPARTURE CITY</option>
+                    <option value="">INDORE</option>
+                    <option value="">BHOPAL</option>
+                    <option value="">MUMBAI</option>
+                    <option value="">KOTA</option>
+                    <option value="">RAJKOT</option>
+                </select>
+                &emsp;
+                <label>TO :</label>
+                <select>
+                    <option value=""> ARRIVAL CITY</option>
+                    <option value=""> MANALI</option>
+                </select>
+                <br><hr>
+                &emsp;<label for="depart">DEPART :</label>
+                <input type="date" id="depart" name="depart"> &emsp;
+                <label for="return">RETURN:</label>
+                <input type="date" id="return" name=" return">
+                <br><hr>
+             &emsp;
+                <label for="adult">ADT</label>
+                <input type="number" id="adult" style="width: 40px;">
+                &emsp;<label for="child">CHD</label>
+                <input type="number" id="child" style="width: 40px;">
+                &emsp;<label for="inferior">INF</label>
+                <input type="number"id="inferior" style="width: 40px;">
+                <br><hr>
+                &emsp;<label >CLASS</label>
+                <select>
+                 <option value="">CLASS</option>           
+                  <option value="">ECONOMY</option>
+                  <option value="">PREMIUM ECONOMY</option>
+                  <option value="">BUSINESS</option>
+                </select><hr>
+               <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+                <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+            </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+     
+            <table>
+                <thead>
+                 <th >DEPARTURE AIRPORT</th>
+                 <th colspan="2">DEPARTING FLIGHTS</th>
+                 <th>PRICE</th>
+                 <th colspan="2">RETURNING FLIGHTS</th>
+                 <th colspan="1"> PRICE</th>
+                 <td>NO. OF PERSON</td>
+                 <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td rowspan="4">INDORE</td>
+                     <td>Departure Time</td>
+                     <td>Arrival Time</td>
+                     <td rowspan="3">Rs.9,383</td>
+                     <td>Departure Time</td>
+                     <td>Arrival Time</td>
+                     <td rowspan="3">Rs.9,792</td>
+                     <td rowspan="3">ONE</td>
+                     <td rowspan="3"> ROUND TRIP</td>
+                 </tr>
+                 <tr>
+                     <td colspan="2"> Day  -  Monday</td>
+                     <td colspan="2"> Day  -  Friday</td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">9:15AM To 11:10AM<hr>Travel Time :1 hr 55min</td> 
+                     <td colspan="2">3:05PM To 4:30PM<hr>Travel Time:1 hr 25min </td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">9:15AM To 11:10AM<hr>Travel Time:1hr 55 min</td>
+                     <td>Rs.19,152</td>
+                     <td colspan="2">_</td>
+                     <td>_</td>
+                     <td>FOUR</td>
+                     <td colspan="2">ONE WAY</td>
+                 </tr>
+                 <tr>
+                     <td rowspan="4">KOTA</td>
+                     <td colspan="2">Day - Monday </td>
+                     <td rowspan="2">Rs.25,848</td>
+                     <td colspan="2">Day -Friday </td>
+                     <td rowspan="2">Rs.13,848</td>
+                     <td rowspan="2">TWO</td>
+                     <td rowspan="2">ROUND TRIP</td>
+                 </tr>
+                 <td colspan="2">8:55 PM To 10:00  PM<hr>Travel Time : 1 hr 5 min </td>
+                 <td colspan="2">7:25PM To 8:30PM<hr>  Travel Time: 1 hr 5 min</td>
+                 <tr>
+                     <td colspan="2">Day - Sunday </td>
+                     <td rowspan="2">Rs.3,212</td>
+                     <td colspan="2" rowspan="2">__</td>
+                     <td rowspan="2">__</td>
+                     <td rowspan="2">ONE</td>
+                     <td rowspan="2">ONE WAY</td>
+                 </tr>
+                 <td colspan="2">9:30 AM To 10:30  AM<hr>Travel Time : 1 hr 00 min </td>
+                 </tr>
+                 <tr>
+                     <td rowspan="3">MUMBAI</td>
+                     <td colspan="2"> Day  -  Thursday</td>
+                     <td rowspan="2">Rs.31,863</td>
+                     <td colspan="2"> Day  -  Monday</td>
+                     <td rowspan="2">Rs.31,792</td>              
+                     <td rowspan="2">THREE</td>
+                     <td rowspan="2"> ROUND TRIP</td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">7:00AM To 9:10AM<hr>Travel Time :2 hr 10min</td> 
+                     <td colspan="2">7:00AM To 9:05AM<hr>Travel Time:2hr 5min </td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">7:30AM To 9:40AM<hr>Travel Time:2 hr 10 min</td>
+                     <td > Rs.21,500</td>
+                     <td colspan="2">7:15AM To 9:20AM<hr> Travel Time:2 hr 5 min </td>
+                     <td>Rs.18,580</td>    
+                     <td>TWO</td>
+                     <td>ROUND TRIP</td>
+                 </tr> 
+             
+               <!--- <tr> 
+                 <td rowspan="4"> AMRITSAR</td>
+                 <td colspan="2">Day-Wednesday</td>
+                 <td rowspan="2">Rs.11,436</td>
+                 <td colspan="2">Day -Wednesday </td>
+                 <td rowspan="2">Rs.12,246</td>
+                 <td rowspan="2">THREE</td>
+                 <td rowspan="2">ROUND TRIP</td>
+             </tr>
+             <tr>
+             <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+             <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+             </tr>
+             <tr>
+                 <td colspan="2">Day - Sunday </td>
+                 <td rowspan="2">Rs.4,248</td>
+                 <td colspan="2" rowspan="2">__</td>
+                 <td rowspan="2">__</td>
+                 <td rowspan="2">Two</td>
+                 <td rowspan="2">ONE WAY</td>
+             </tr>
+             <tr>
+             <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+             </tr>
+     
+             <tr> 
+                 <td rowspan="4"> BENGLURU</td>
+                 <td colspan="2">Day - Sunday </td>
+                 <td rowspan="2">Rs.5,640</td>
+                 <td colspan="2">Day -Thursday</td>
+                 <td rowspan="2">Rs.5,868</td>
+                 <td rowspan="2">TWO</td>
+                 <td rowspan="2">ROUND TRIP</td>
+             </tr>
+             <tr>
+             <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+             <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+             </tr>
+             <tr>
+                 <td colspan="2">Day - Monday </td>
+                 <td rowspan="2">Rs.6,876</td>
+                 <td colspan="2">Day-Friday</td>
+                 <td rowspan="2">Rs.5,879</td>
+                 <td rowspan="2">ONE</td>
+                 <td rowspan="2">ROUND TRIP</td>
+             </tr>
+             <tr>
+             <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+             <td colspan="2">8:30PM To 11:05 PM<hr> Travel Time:2 hr 35 min</td>
+             </tr>-->
+     
+     
+             </tbody>
+             </table><br>
+             <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+
+             <br><hr>
+
+             <h1 style="background-color: black;color: mintcream;text-align: center;width: 650px; margin-left: 365px;">Flight Schedule For Visiting Leh Ladakh</h1>
+             <div style="width: 400px; float:left ;">
+                 <ul style="list-style: none;">
+                     <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+                     <li class="li"><br>SURAT TO LEH LADAKH  | 2,103.6 km<br></li>
+                     <li class="li"><br>BHOPAL TO LEH LADAKH | 1,752.5 km<br></li>
+                     <li class="li"><br>MUMBAI TO LEH LADAKH | 2,364.9 km<br></li>
+                     <li class="li"><br>KULLU TO LEH LADAKH | 467.1 km<br></li>
+                     <li class="li"><br>DELHI TO LEH LADAKH | 959.1 km<br></li>
+                     <li class="li"><br></li>
+                 </ul>
+             </div>
+             <br>
+             <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+             <br> &emsp;
+              <input type="radio" name="way">
+              <span> One Way</span>
+              &emsp;
+              <input type="radio" name="way">
+              <span> Round Trip</span><hr>
+             &emsp; <label for="city">FROM  :</label>
+                <!--- <input type="text" name="departure airport" id="city">-->
+                 <select>
+                     <option value="">DEPARTURE CITY</option>
+                     <option value="">SURAT</option>
+                     <option value="">BHOPAL</option>
+                     <option value="">MUMBAI</option>
+                     <option value="">KULLU</option>
+                     <option value="">DELHI</option>
+                 </select>
+                 &emsp;
+                 <label>TO :</label>
+                 <select>
+                     <option value=""> ARRIVAL CITY</option>
+                     <option value=""> LEH LADAKH</option>
+                 </select>
+                 <br><hr>
+                 &emsp;<label for="depart">DEPART :</label>
+                 <input type="date" id="depart" name="depart"> &emsp;
+                 <label for="return">RETURN:</label>
+                 <input type="date" id="return" name=" return">
+                 <br><hr>
+              &emsp;
+                 <label for="adult">ADT</label>
+                 <input type="number" id="adult" style="width: 40px;">
+                 &emsp;<label for="child">CHD</label>
+                 <input type="number" id="child" style="width: 40px;">
+                 &emsp;<label for="inferior">INF</label>
+                 <input type="number"id="inferior" style="width: 40px;">
+                 <br><hr>
+                 &emsp;<label >CLASS</label>
+                 <select>
+                  <option value="">CLASS</option>           
+                   <option value="">ECONOMY</option>
+                   <option value="">PREMIUM ECONOMY</option>
+                   <option value="">BUSINESS</option>
+                 </select><hr>
+                <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+                 <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+             </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+      
+             <table>
+                 <thead>
+                  <th >DEPARTURE AIRPORT</th>
+                  <th colspan="2">DEPARTING FLIGHTS</th>
+                  <th>PRICE</th>
+                  <th colspan="2">RETURNING FLIGHTS</th>
+                  <th colspan="1"> PRICE</th>
+                  <td>NO. OF PERSON</td>
+                  <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="4">SURAT</td>
+                      <td>Departure Time</td>
+                      <td>Arrival Time</td>
+                      <td rowspan="3">Rs.13,792</td>
+                      <td>Departure Time</td>
+                      <td>Arrival Time</td>
+                      <td rowspan="3">Rs.13,792</td>
+                      <td rowspan="3">ONE</td>
+                      <td rowspan="4"> ROUND TRIP</td>
+                  </tr>
+                  <tr>
+                      <td colspan="2"> Day  -  Friday</td>
+                      <td colspan="2"> Day  -  Tuesday</td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">3:25PM To 6:00PM<hr>Travel Time :2 hr 35min</td> 
+                      <td colspan="2">12:10PM To 2:40PM<hr>Travel Time:2hr 30min </td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">3:20PM To 1:45PM<hr>Travel Time:46hr 25 min</td>
+                      <td>Rs.19,252</td>
+                      <td colspan="2">7:00PM To 2:45PM<hr> Travel Time:7 hr 45min</td>
+                      <td>Rs.15,788</td>
+                      <td>ONE</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="4">DELHI</td>
+                      <td colspan="2">Day - Sunday </td>
+                      <td rowspan="2">Rs.14,848</td>
+                      <td colspan="2">Day -Tuesday </td>
+                      <td rowspan="2">Rs.14,868</td>
+                      <td rowspan="2">TWO</td>
+                      <td rowspan="2">ROUND TRIP</td>
+                  </tr>
+                  <td colspan="2">1:35 PM To 3:00  PM<hr>Travel Time : 1 hr 25 min </td>
+                  <td colspan="2">11:25AM To 1:05PM<hr>  Travel Time: 1 hr 40 min</td>
+                  <tr>
+                      <td colspan="2">Day - Sunday </td>
+                      <td rowspan="2">Rs.2,212</td>
+                      <td colspan="2" rowspan="2">__</td>
+                      <td rowspan="2">__</td>
+                      <td rowspan="2">ONE</td>
+                      <td rowspan="2">ONE WAY</td>
+                  </tr>
+                  <td colspan="2">8:00 AM To 9:25  AM<hr>Travel Time : 1 hr 25 min </td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">MUMBAI</td>
+                      <td colspan="2"> Day  -  Thursday</td>
+                      <td rowspan="2">Rs.4,863</td>
+                      <td colspan="2"> Day  -  Monday</td>
+                      <td rowspan="2">Rs.5,792</td>              
+                      <td rowspan="2">ONE</td>
+                      <td rowspan="2"> ROUND TRIP</td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">1:05AM To 9:55AM<hr>Travel Time :8 hr 50min</td> 
+                      <td colspan="2">5:45AM To 7:55AM<hr>Travel Time:2hr 10min </td>
+                  </tr>
+                  <tr>
+                      <td colspan="2">1:05AM To 9:55AM<hr>Travel Time:8hr 50 min</td>
+                      <td > Rs.14,500</td>
+                      <td colspan="2">6:15AM To 10:15PM<hr> Travel Time:7 hr </td>
+                      <td>Rs.14,580</td>    
+                      <td>THREE</td>
+                      <td>ROUND TRIP</td>
+                  </tr> 
+              
+                  <tr> 
+                  <td rowspan="4"> KULLU</td>
+                  <td colspan="2">Day-Wednesday</td>
+                  <td rowspan="2">Rs.11,436</td>
+                  <td colspan="2">Day -Wednesday </td>
+                  <td rowspan="2">Rs.12,246</td>
+                  <td rowspan="2">THREE</td>
+                  <td rowspan="2">ROUND TRIP</td>
+              </tr>
+              <tr>
+              <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+              <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+              </tr>
+              <tr>
+                  <td colspan="2">Day - Sunday </td>
+                  <td rowspan="2">Rs.4,248</td>
+                  <td colspan="2" rowspan="2">__</td>
+                  <td rowspan="2">__</td>
+                  <td rowspan="2">Two</td>
+                  <td rowspan="2">ONE WAY</td>
+              </tr>
+              <tr>
+              <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+              </tr>
+      
+             <!--- <tr> 
+                  <td rowspan="4"> BENGLURU</td>
+                  <td colspan="2">Day - Sunday </td>
+                  <td rowspan="2">Rs.5,640</td>
+                  <td colspan="2">Day -Thursday</td>
+                  <td rowspan="2">Rs.5,868</td>
+                  <td rowspan="2">TWO</td>
+                  <td rowspan="2">ROUND TRIP</td>
+              </tr>
+              <tr>
+              <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+              <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+              </tr>
+              <tr>
+                  <td colspan="2">Day - Monday </td>
+                  <td rowspan="2">Rs.6,876</td>
+                  <td colspan="2">Day-Friday</td>
+                  <td rowspan="2">Rs.5,879</td>
+                  <td rowspan="2">ONE</td>
+                  <td rowspan="2">ROUND TRIP</td>
+              </tr>
+              <tr>
+              <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+              <td colspan="2">8:30PM To 11:05 PM<hr> Travel Time:2 hr 35 min</td>
+              </tr>-->
+      
+      
+              </tbody>
+              </table><br>
+              <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+
+              <br><hr>
+
+              <h1 style="background-color: black;color: mintcream;text-align: center;width: 730px; margin-left: 340px;">Flight Schedule For Visiting Jammu And Kashmir </h1>
+              <div style="width: 500px; float:left ;">
+                  <ul style="list-style: none;">
+                      <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+                      <li class="li"><br>GOA TO JAMMU AND KASHMIR  | 2,608.2 km<br></li>
+                      <li class="li"><br>BHOPAL TO JAMMU AND KASHMIR | 1,474.9 km<br></li>
+                      <li class="li"><br>MUMBAI TO JAMMU AND KASHMIR | 2,035.9 km<br></li>
+                      <li class="li"><br>AMRITSAR TO JAMMU AND KASHMIR | 304.1 km<br></li>
+                      <li class="li"><br>BENGLURU TO JAMMU AND KASHMIR | 2,861.8 km<br></li>
+                      <li class="li"><br></li>
+                  </ul>
+              </div>
+              <br>
+              <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+              <br> &emsp;
+               <input type="radio" name="way">
+               <span> One Way</span>
+               &emsp;
+               <input type="radio" name="way">
+               <span> Round Trip</span><hr>
+              &emsp; <label for="city">FROM  :</label>
+                 <!--- <input type="text" name="departure airport" id="city">-->
+                  <select>
+                      <option value="">DEPARTURE CITY</option>
+                      <option value="">GOA</option>
+                      <option value="">BHOPAL</option>
+                      <option value="">MUMBAI</option>
+                      <option value="">AMRITSAR</option>
+                      <option value="">BENGLURU</option>
+                  </select>
+                  &emsp;
+                  <label>TO :</label>
+                  <select>
+                      <option value=""> ARRIVAL CITY</option>
+                      <option value=""> JAMMU AND KASHMIR</option>
+                  </select>
+                  <br><hr>
+                  &emsp;<label for="depart">DEPART :</label>
+                  <input type="date" id="depart" name="depart"> &emsp;
+                  <label for="return">RETURN:</label>
+                  <input type="date" id="return" name=" return">
+                  <br><hr>
+               &emsp;
+                  <label for="adult">ADT</label>
+                  <input type="number" id="adult" style="width: 40px;">
+                  &emsp;<label for="child">CHD</label>
+                  <input type="number" id="child" style="width: 40px;">
+                  &emsp;<label for="inferior">INF</label>
+                  <input type="number"id="inferior" style="width: 40px;">
+                  <br><hr>
+                  &emsp;<label >CLASS</label>
+                  <select>
+                   <option value="">CLASS</option>           
+                    <option value="">ECONOMY</option>
+                    <option value="">PREMIUM ECONOMY</option>
+                    <option value="">BUSINESS</option>
+                  </select><hr>
+                 <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+                  <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+              </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+       
+              <table>
+                  <thead>
+                   <th >DEPARTURE AIRPORT</th>
+                   <th colspan="2">DEPARTING FLIGHTS</th>
+                   <th>PRICE</th>
+                   <th colspan="2">RETURNING FLIGHTS</th>
+                   <th colspan="1"> PRICE</th>
+                   <td>NO. OF PERSON</td>
+                   <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td rowspan="4">GOA</td>
+                       <td>Departure Time</td>
+                       <td>Arrival Time</td>
+                       <td rowspan="3">Rs.22,792</td>
+                       <td>Departure Time</td>
+                       <td>Arrival Time</td>
+                       <td rowspan="3">Rs.23,792</td>
+                       <td rowspan="3">ONE</td>
+                       <td rowspan="3"> ROUND TRIP</td>
+                   </tr>
+                   <tr>
+                       <td colspan="2"> Day  -  Friday</td>
+                       <td colspan="2"> Day  -  Tuesday</td>
+                   </tr>
+                   <tr>
+                       <td colspan="2">3:25PM To 6:00PM<hr>Travel Time :2 hr 35min</td> 
+                       <td colspan="2">12:10PM To 2:40PM<hr>Travel Time:2hr 30min </td>
+                   </tr>
+                   <tr>
+                       <td colspan="2">3:20PM To 1:45PM<hr>Travel Time:46hr 25 min</td>
+                       <td>Rs.24,252</td>
+                       <td colspan="2">_</td>
+                       <td>_</td>
+                       <td>THREE</td>
+                       <TD>ONE WAY</TD>
+                   </tr>
+                   <tr>
+                       <td rowspan="4">BHOPAL</td>
+                       <td colspan="2">Day - Sunday </td>
+                       <td rowspan="2">Rs.14,848</td>
+                       <td colspan="2">Day -Tuesday </td>
+                       <td rowspan="2">Rs.14,868</td>
+                       <td rowspan="2">TWO</td>
+                       <td rowspan="2">ROUND TRIP</td>
+                   </tr>
+                   <td colspan="2">1:35 PM To 3:00  PM<hr>Travel Time : 1 hr 25 min </td>
+                   <td colspan="2">11:25AM To 1:05PM<hr>  Travel Time: 1 hr 40 min</td>
+                   <tr>
+                       <td colspan="2">Day - Sunday </td>
+                       <td rowspan="2">Rs.2,212</td>
+                       <td colspan="2" rowspan="2">__</td>
+                       <td rowspan="2">__</td>
+                       <td rowspan="2">ONE</td>
+                       <td rowspan="2">ONE WAY</td>
+                   </tr>
+                   <td colspan="2">8:00 AM To 9:25  AM<hr>Travel Time : 1 hr 25 min </td>
+                   </tr>
+                   <tr>
+                       <td rowspan="3">AMRITSAR</td>
+                       <td colspan="2"> Day  -  Thursday</td>
+                       <td rowspan="2">Rs.7,863</td>
+                       <td colspan="2"> Day  -  Monday</td>
+                       <td rowspan="2">Rs.8,792</td>              
+                       <td rowspan="2">TWO</td>
+                       <td rowspan="2"> ROUND TRIP</td>
+                   </tr>
+                   <tr>
+                       <td colspan="2">1:05AM To 9:55AM<hr>Travel Time :8 hr 50min</td> 
+                       <td colspan="2">5:45AM To 7:55AM<hr>Travel Time:2hr 10min </td>
+                   </tr>
+                   <tr>
+                       <td colspan="2">1:05AM To 9:55AM<hr>Travel Time:8hr 50 min</td>
+                       <td > Rs.12,500</td>
+                       <td colspan="2">6:15AM To 10:15PM<hr> Travel Time:7 hr </td>
+                       <td>Rs.14,580</td>    
+                       <td>THREE</td>
+                       <td>ROUND TRIP</td>
+                   </tr> 
+               
+                  <!---<tr> 
+                   <td rowspan="4"> AMRITSAR</td>
+                   <td colspan="2">Day-Wednesday</td>
+                   <td rowspan="2">Rs.11,436</td>
+                   <td colspan="2">Day -Wednesday </td>
+                   <td rowspan="2">Rs.12,246</td>
+                   <td rowspan="2">THREE</td>
+                   <td rowspan="2">ROUND TRIP</td>
+               </tr>
+               <tr>
+               <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+               <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+               </tr>
+               <tr>
+                   <td colspan="2">Day - Sunday </td>
+                   <td rowspan="2">Rs.4,248</td>
+                   <td colspan="2" rowspan="2">__</td>
+                   <td rowspan="2">__</td>
+                   <td rowspan="2">Two</td>
+                   <td rowspan="2">ONE WAY</td>
+               </tr>
+               <tr>
+               <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+               </tr>
+       
+               <tr> 
+                   <td rowspan="4"> BENGLURU</td>
+                   <td colspan="2">Day - Sunday </td>
+                   <td rowspan="2">Rs.5,640</td>
+                   <td colspan="2">Day -Thursday</td>
+                   <td rowspan="2">Rs.5,868</td>
+                   <td rowspan="2">TWO</td>
+                   <td rowspan="2">ROUND TRIP</td>
+               </tr>
+               <tr>
+               <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+               <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+               </tr>
+               <tr>
+                   <td colspan="2">Day - Monday </td>
+                   <td rowspan="2">Rs.6,876</td>
+                   <td colspan="2">Day-Friday</td>
+                   <td rowspan="2">Rs.5,879</td>
+                   <td rowspan="2">ONE</td>
+                   <td rowspan="2">ROUND TRIP</td>
+               </tr>
+               <tr>
+               <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+               <td colspan="2">8:30PM To 11:05 PM<hr> Travel Time:2 hr 35 min</td>
+               </tr>-->
+       
+       
+               </tbody>
+               </table><br>
+               <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+               <br><hr>
+
+               <h1 style="background-color: black;color: mintcream;text-align: center;width: 900px; margin-left: 215px;">Flight Schedule For Visiting Andaman and Nicobar Islands</h1>
+               <div style="width: 550px; float:left ;">
+                   <ul style="list-style: none;">
+                       <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+                       <li class="li"><br>DELHI TO ANDAMAN AND NICOBAR ISLANDS | 2,469 km<br></li>
+                       <li class="li"><br>BHOPAL TO ANDAMAN AND NICOBAR ISLANDS | 2,060 km<br></li>
+                       <li class="li"><br>MUMBAI TO ANDAMAN AND NICOBAR ISLANDS | 2,269 km<br></li>
+                       <li class="li"><br>GOA TO ANDAMAN AND NICOBAR ISLANDS | 2,042 km<br></li>
+                       <li class="li"><br>CHENNAI TO ANDAMAN AND NICOBAR ISLANDS | 1,353 km<br></li>
+                       <li class="li"><br></li>
+                   </ul>
+               </div>
+               <br>
+               <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+               <br> &emsp;
+                <input type="radio" name="way">
+                <span> One Way</span>
+                &emsp;
+                <input type="radio" name="way">
+                <span> Round Trip</span><hr>
+               &emsp; <label for="city">FROM  :</label>
+                  <!--- <input type="text" name="departure airport" id="city">-->
+                   <select>
+                       <option value="">DEPARTURE CITY</option>
+                       <option value="">GOA</option>
+                       <option value="">BHOPAL</option>
+                       <option value="">MUMBAI</option>
+                       <option value="">DELHI</option>
+                       <option value="">CHENNAI</option>
+                   </select>
+                   &emsp;
+                   <label>TO :</label>
+                   <select>
+                       <option value=""> ARRIVAL CITY</option>
+                       <option value=""> ANDAMAN AND NICOBAR ISLANDS</option>
+                   </select>
+                   <br><hr>
+                   &emsp;<label for="depart">DEPART :</label>
+                   <input type="date" id="depart" name="depart"> &emsp;
+                   <label for="return">RETURN:</label>
+                   <input type="date" id="return" name=" return">
+                   <br><hr>
+                &emsp;
+                   <label for="adult">ADT</label>
+                   <input type="number" id="adult" style="width: 40px;">
+                   &emsp;<label for="child">CHD</label>
+                   <input type="number" id="child" style="width: 40px;">
+                   &emsp;<label for="inferior">INF</label>
+                   <input type="number"id="inferior" style="width: 40px;">
+                   <br><hr>
+                   &emsp;<label >CLASS</label>
+                   <select>
+                    <option value="">CLASS</option>           
+                     <option value="">ECONOMY</option>
+                     <option value="">PREMIUM ECONOMY</option>
+                     <option value="">BUSINESS</option>
+                   </select><hr>
+                  <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+                   <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+               </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+        
+               <table>
+                   <thead>
+                    <th >DEPARTURE AIRPORT</th>
+                    <th colspan="2">DEPARTING FLIGHTS</th>
+                    <th>PRICE</th>
+                    <th colspan="2">RETURNING FLIGHTS</th>
+                    <th colspan="1"> PRICE</th>
+                    <td>NO. OF PERSON</td>
+                    <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4">DELHI</td>
+                        <td>Departure Time</td>
+                        <td>Arrival Time</td>
+                        <td rowspan="3">Rs.13,792</td>
+                        <td>Departure Time</td>
+                        <td>Arrival Time</td>
+                        <td rowspan="3">Rs.19,792</td>
+                        <td rowspan="3">ONE</td>
+                        <td rowspan="3"> ROUND TRIP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> Day  -  Friday</td>
+                        <td colspan="2"> Day  -  Tuesday</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">3:25PM To 6:00PM<hr>Travel Time :2 hr 35min</td> 
+                        <td colspan="2">12:10PM To 2:40PM<hr>Travel Time:2hr 30min </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">3:20PM To 1:45PM<hr>Travel Time:46hr 25 min</td>
+                        <td>Rs.19,252</td>
+                        <td colspan="2">7:00PM To 2:45PM<hr> Travel Time:7 hr 45min</td>
+                        <td>Rs.15,788</td>
+                        <td>ONE</td>
+                        <TD>ROUND TRIP</TD>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">BHOPAL</td>
+                        <td colspan="2">Day - Sunday </td>
+                        <td rowspan="2">Rs.18,848</td>
+                        <td colspan="2">Day -Tuesday </td>
+                        <td rowspan="2">Rs.19,868</td>
+                        <td rowspan="2">TWO</td>
+                        <td rowspan="2">ROUND TRIP</td>
+                    </tr>
+                    <td colspan="2">1:35 PM To 3:00  PM<hr>Travel Time : 1 hr 25 min </td>
+                    <td colspan="2">11:25AM To 1:05PM<hr>  Travel Time: 1 hr 40 min</td>
+                    <tr>
+                        <td colspan="2">Day - Sunday </td>
+                        <td rowspan="2">Rs.22,212</td>
+                        <td colspan="2" rowspan="2">__</td>
+                        <td rowspan="2">__</td>
+                        <td rowspan="2">TWO</td>
+                        <td rowspan="2">ONE WAY</td>
+                    </tr>
+                    <td colspan="2">8:00 AM To 9:25  AM<hr>Travel Time : 1 hr 25 min </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">MUMBAI</td>
+                        <td colspan="2"> Day  -  Thursday</td>
+                        <td rowspan="2">Rs.4,863</td>
+                        <td colspan="2"> Day  -  Monday</td>
+                        <td rowspan="2">Rs.5,792</td>              
+                        <td rowspan="2">ONE</td>
+                        <td rowspan="2"> ROUND TRIP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">1:05AM To 9:55AM<hr>Travel Time :8 hr 50min</td> 
+                        <td colspan="2">5:45AM To 7:55AM<hr>Travel Time:2hr 10min </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">1:05AM To 9:55AM<hr>Travel Time:8hr 50 min</td>
+                        <td > Rs.14,500</td>
+                        <td colspan="2">__ </td>
+                        <td>__</td>    
+                        <td>THREE</td>
+                        <td>ONE WAY</td>
+                    </tr> 
+                
+                  <tr> 
+                    <td rowspan="4"> GOA</td>
+                    <td colspan="2">Day-Wednesday</td>
+                    <td rowspan="2">Rs.31,436</td>
+                    <td colspan="2">Day -Wednesday </td>
+                    <td rowspan="2">Rs.12,246</td>
+                    <td rowspan="2">FOUR</td>
+                    <td rowspan="2">ROUND TRIP</td>
+                </tr>
+                <tr>
+                <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+                <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Day - Sunday </td>
+                    <td rowspan="2">Rs.4,248</td>
+                    <td colspan="2" rowspan="2">__</td>
+                    <td rowspan="2">__</td>
+                    <td rowspan="2">TWO</td>
+                    <td rowspan="2">ONE WAY</td>
+                </tr>
+                <tr>
+                <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+                </tr>
+        
+                <tr> 
+                    <td rowspan="4">CHENNAI</td>
+                    <td colspan="2">Day - Sunday </td>
+                    <td rowspan="2">Rs.5,640</td>
+                    <td colspan="2">Day -Thursday</td>
+                    <td rowspan="2">Rs.5,868</td>
+                    <td rowspan="2">TWO</td>
+                    <td rowspan="2">ROUND TRIP</td>
+                </tr>
+                <tr>
+                <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+                <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Day - Monday </td>
+                    <td rowspan="2">Rs.16,876</td>
+                    <td colspan="2"rowspan="2">__</td>
+                    <td rowspan="2">__</td>
+                    <td rowspan="2">TWO</td>
+                    <td rowspan="2">ONE WAY</td>
+                </tr>
+                <tr>
+                <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+                
+                </tr>
+        
+        
+                </tbody>
+                </table><br>
+                <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+
+                <br><hr>
+
+                <h1 style="background-color: black;color: mintcream;text-align: center;width: 600px; margin-left: 390px;">Flight Schedule For Visiting Goa</h1>
+                <div style="width: 400px; float:left ;">
+                    <ul style="list-style: none;">
+                        <li style="color:white;background-color: midnightblue;text-align: center;font-size:x-large;">DISTANCE</li>
+                        <li class="li"><br>PATANA TO GOA  | 1,618 km<br></li>
+                        <li class="li"><br>SHIMLA TO GOA | 1,784 km<br></li>
+                        <li class="li"><br>SRINAGAR TO GOA | 1,299.0 km<br></li>
+                        <li class="li"><br>JAIPUR TO GOA | 1,304 km<br></li>
+                        <li class="li"><br>RAIPUR TO GOA | 1,031.0 km<br></li>
+                        <li class="li"><br></li>
+                    </ul>
+                </div>
+                <br>
+                <div style="width: 600px;float: left; background-color: rgb(179, 165, 151); margin-left: 30px;">
+                <br> &emsp;
+                 <input type="radio" name="way">
+                 <span> One Way</span>
+                 &emsp;
+                 <input type="radio" name="way">
+                 <span> Round Trip</span><hr>
+                &emsp; <label for="city">FROM  :</label>
+                   <!--- <input type="text" name="departure airport" id="city">-->
+                    <select>
+                        <option value="">DEPARTURE CITY</option>
+                        <option value="">PATANA</option>
+                        <option value="">SHIMLA</option>
+                        <option value="">SRINAGAR</option>
+                        <option value="">JAIPUR</option>
+                        <option value="">RAIPUR</option>
+                    </select>
+                    &emsp;
+                    <label>TO :</label>
+                    <select>
+                        <option value=""> ARRIVAL CITY</option>
+                        <option value=""> GOA</option>
+                    </select>
+                    <br><hr>
+                    &emsp;<label for="depart">DEPART :</label>
+                    <input type="date" id="depart" name="depart"> &emsp;
+                    <label for="return">RETURN:</label>
+                    <input type="date" id="return" name=" return">
+                    <br><hr>
+                 &emsp;
+                    <label for="adult">ADT</label>
+                    <input type="number" id="adult" style="width: 40px;">
+                    &emsp;<label for="child">CHD</label>
+                    <input type="number" id="child" style="width: 40px;">
+                    &emsp;<label for="inferior">INF</label>
+                    <input type="number"id="inferior" style="width: 40px;">
+                    <br><hr>
+                    &emsp;<label >CLASS</label>
+                    <select>
+                     <option value="">CLASS</option>           
+                      <option value="">ECONOMY</option>
+                      <option value="">PREMIUM ECONOMY</option>
+                      <option value="">BUSINESS</option>
+                    </select><hr>
+                   <!--- &emsp;&emsp;&emsp;&emsp;--><p style="text-align: center;">
+                    <button type="button" style="text-align: center; background-color: rgb(34, 124, 180); color: cornsilk;"> SEARCH FLIGHTS</button></p>
+                </div><br><br><br> <br><br><br><br><br><br> <br><br><br><br><br><br> <br><br>
+         
+                <table>
+                    <thead>
+                     <th >DEPARTURE AIRPORT</th>
+                     <th colspan="2">DEPARTING FLIGHTS</th>
+                     <th>PRICE</th>
+                     <th colspan="2">RETURNING FLIGHTS</th>
+                     <th colspan="1"> PRICE</th>
+                     <td>NO. OF PERSON</td>
+                     <td>ONE WAY/ROUND TRIP/ MULTI CITY</td>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td rowspan="4">PATANA</td>
+                         <td>Departure Time</td>
+                         <td>Arrival Time</td>
+                         <td rowspan="3">Rs.23,792</td>
+                         <td>Departure Time</td>
+                         <td>Arrival Time</td>
+                         <td rowspan="3">__</td>
+                         <td rowspan="3">THREE</td>
+                         <td rowspan="3"> ONE WAY</td>
+                     </tr>
+                     <tr>
+                         <td colspan="2"> Day  -  Friday</td>
+                         <td colspan="2" rowspan="2"> Day  -  Tuesday</td>
+                     </tr>
+                     <tr>
+                         <td colspan="2">3:25PM To 6:00PM<hr>Travel Time :2 hr 35min</td> 
+                        
+                     </tr>
+                     <tr>
+                         <td colspan="2">3:20PM To 1:45PM<hr>Travel Time:46hr 25 min</td>
+                         <td>Rs.19,252</td>
+                         <td colspan="2">7:00PM To 2:45PM<hr> Travel Time:7 hr 45min</td>
+                         <td>Rs.15,788</td>
+                         <td>ONE</td>
+                         <TD>ROUND TRIP</TD>
+                     </tr>
+                     <tr>
+                         <td rowspan="4">SHIMLA</td>
+                         <td colspan="2">Day - Sunday </td>
+                         <td rowspan="2">Rs.14,848</td>
+                         <td colspan="2">Day -Tuesday </td>
+                         <td rowspan="2">Rs.14,868</td>
+                         <td rowspan="2">TWO</td>
+                         <td rowspan="2">ROUND TRIP</td>
+                     </tr>
+                     <td colspan="2">1:35 PM To 3:00  PM<hr>Travel Time : 1 hr 25 min </td>
+                     <td colspan="2">11:25AM To 1:05PM<hr>  Travel Time: 1 hr 40 min</td>
+                     <tr>
+                         <td colspan="2">Day - Sunday </td>
+                         <td rowspan="2">Rs.22,212</td>
+                         <td colspan="2" rowspan="2">__</td>
+                         <td rowspan="2">__</td>
+                         <td rowspan="2">FIVE</td>
+                         <td rowspan="2">ONE WAY</td>
+                     </tr>
+                     <td colspan="2">8:00 AM To 9:25  AM<hr>Travel Time : 1 hr 25 min </td>
+                     </tr>
+                     <tr>
+                         <td rowspan="3">RAIPUR</td>
+                         <td colspan="2"> Day  -  Thursday</td>
+                         <td rowspan="2">Rs.4,863</td>
+                         <td colspan="2"> Day  -  Monday</td>
+                         <td rowspan="2">Rs.5,792</td>              
+                         <td rowspan="2">ONE</td>
+                         <td rowspan="2"> ROUND TRIP</td>
+                     </tr>
+                     <tr>
+                         <td colspan="2">1:05AM To 9:55AM<hr>Travel Time :8 hr 50min</td> 
+                         <td colspan="2">5:45AM To 7:55AM<hr>Travel Time:2hr 10min </td>
+                     </tr>
+                     <tr>
+                         <td colspan="2">1:05AM To 9:55AM<hr>Travel Time:8hr 50 min</td>
+                         <td > Rs.14,500</td>
+                         <td colspan="2">6:15AM To 10:15PM<hr> Travel Time:7 hr </td>
+                         <td>Rs.14,580</td>    
+                         <td>THREE</td>
+                         <td>ROUND TRIP</td>
+                     </tr> 
+                 
+                    <!--- <tr> 
+                     <td rowspan="4"> AMRITSAR</td>
+                     <td colspan="2">Day-Wednesday</td>
+                     <td rowspan="2">Rs.11,436</td>
+                     <td colspan="2">Day -Wednesday </td>
+                     <td rowspan="2">Rs.12,246</td>
+                     <td rowspan="2">THREE</td>
+                     <td rowspan="2">ROUND TRIP</td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">6:05 AM To 7:20  AM<hr>Travel Time : 1 hr 15 min </td>
+                 <td colspan="2">11:00AM To 12:10PM<hr>  Travel Time: 1 hr 10 min</td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">Day - Sunday </td>
+                     <td rowspan="2">Rs.4,248</td>
+                     <td colspan="2" rowspan="2">__</td>
+                     <td rowspan="2">__</td>
+                     <td rowspan="2">Two</td>
+                     <td rowspan="2">ONE WAY</td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">7:10 PM To 8:20  PM<hr>Travel Time : 1 hr 20 min </td>
+                 </tr>
+         
+                 <tr> 
+                     <td rowspan="4"> BENGLURU</td>
+                     <td colspan="2">Day - Sunday </td>
+                     <td rowspan="2">Rs.5,640</td>
+                     <td colspan="2">Day -Thursday</td>
+                     <td rowspan="2">Rs.5,868</td>
+                     <td rowspan="2">TWO</td>
+                     <td rowspan="2">ROUND TRIP</td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">6:10 AM To 8:55  AM<hr>Travel Time : 2 hr 45 min </td>
+                 <td colspan="2">11:00AM To 1:45Pm<hr>  Travel Time: 2 hr 45 min</td>
+                 </tr>
+                 <tr>
+                     <td colspan="2">Day - Monday </td>
+                     <td rowspan="2">Rs.6,876</td>
+                     <td colspan="2">Day-Friday</td>
+                     <td rowspan="2">Rs.5,879</td>
+                     <td rowspan="2">ONE</td>
+                     <td rowspan="2">ROUND TRIP</td>
+                 </tr>
+                 <tr>
+                 <td colspan="2">8:05 PM To 10:55 PM<hr>Travel Time : 2 hr 50 min </td>
+                 <td colspan="2">8:30PM To 11:05 PM<hr> Travel Time:2 hr 35 min</td>
+                 </tr>-->
+         
+         
+                 </tbody>
+                 </table><br>
+                 <h3 style="color: black; background-color: blanchedalmond;width: 400px; text-align:center ;"><a href="https://www.yatra.com/domestic-airlines/air-india-flight-status">CLICK HERE FOR MORE DETAILS</a></h3>
+
+                 <br><hr>
+         
+        
+       
+
+        </body>
+</html>
